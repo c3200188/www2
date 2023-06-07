@@ -1,1 +1,110 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE</title>
+    <style>
+        body{
+            font-family:"Yu Gothic",YuGothic,"MS Pゴシック",Meiryo;
+            font-size:16px;
+            background-color:white;
+            background-repeat:repeat-y;
+        }
+        h1,h2,h3,h4,h5,h6,ul,li{
+            margin:0;
+            padding:0;
+        }
+        header{
+            width:980;
+            color:black;
+            background-color:white;
+            overflow:hidden;
+        }
+        #white{
+            background-repeat:repeat-x;
+        }
+        #logo{
+            display:block;
+            margin-left:10px;
+            margin-bottom:10px;
+            float:left;
+        }
+        nav{
+            padding-left:10px;
+            padding-right:10px;
+        }
+        nav ul{list-style-type:none;}
+        nav li{
+            width:160px;
+            height:60px;
+            float:left;
+        }
+        nav a{
+            display:block;
+            line-height:60px;
+            text-align:center;
+            color:black;
+            text-decoration:none;
+            background-image:url(../kadaio1_img01_png/images/silvar.png);
+        }
+        nav a:hover{
+            color:black;
+            font-weight:bold;
+            background-image:url(../kadaio1_img01_png/images/silvar.png);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <main>
+            <section a>
+            <img src="images/white_0f9f9db0-f898-44e3-a9a1-b93ffeef466b.png">
+            </section>
+            <section class ="logo">
+            <img src="images/title_0f9f9db0-f898-44e3-a9a1-b93ffeef466b.png" alt="hotel's title">
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">CONCEPT</a></li>
+                    <li><a href="#">STAY</a></li>
+                    <li><a href="#">PAGE SAMPLE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">DOWNLOAD</a></li>
+                </ul>
+            </nav>
+            <section>
+                <img src="images/0f9f9db0-f898-44e3-a9a1-b93ffeef466b.png" alt="LUXE hotel">
+                <h3>Stay in a Stylish and Luxurious Design Space.</h3>
+                <p>The Scenety, and Location Are Perfect, and the Food Is Excellent. This Resort Hotel Is Dedlicated to the Enjoyment of Nature's Bounty and the Pursuit of Fine Cuisine.</p>
+            </section>
+            <section>
+                <img src="images/taoru_0f9f9db0-f898-44e3-a9a1-b93ffeef466b.png" alt="hotel's blanket">
+                <h3>Concept</h3>
+                <p>Stay in a stylish and luxurious design space.</p>
+            </section>
+            <section>
+                <img src="images\/bed_0f9f9db0-f898-44e3-a9a1-b93ffeef466b.png" alt="hotel's bed">
+                <h3>Hositality</h3>
+                <p>A true resort life, where the richness of nature heals both  body and soul.</p>
+            </section>
+            <section>
+                <img src="images/food_0f9f9db0-f898-44e3-a9a1-b93ffeef466b.png" alt="hotel's food">
+                <h3>Restaurant</h3>
+                <p>The hotel is dedicated to the enjoyment of nature's bounty and the pursuit of gastronomy.</p>
+            </section>
+            <section>
+                <h3>News Information</h3>
+                <h6>Older News</h6>
+                <p>2020.12.18   Update infomation on "LUXE(tcd022)"</p>
+                <p>2020.09.18   Custom post type "Announcement" is available.</p>
+                <p>2020.08.12   WordPress theme "LUXE(tcd022)" is released.</p>
+            </section>
+            <section><img src="images/plan_0f9f9db0-f898-44e3-a9a1-b93ffeef466b.png" alt="hotel's plan"></section>
+        </main>
+    </header>
+</body>
+</html>
